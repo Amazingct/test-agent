@@ -1,0 +1,54 @@
+# Git files
+.git
+.gitignore
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+build/
+dist/
+
+# Test artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs
+*.log
+
+# Documentation
+*.md
+README*
+
+# Patch and debug files
+*.patch
+*.traj
+*.trace.log
+*.debug.log
+*.info.log
+*.pred
+
+# Other directories that shouldn't be in container
+no_config__*
+swe-fix/ 

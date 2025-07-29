@@ -1,0 +1,1 @@
+pytest test_code1.py -v --cov=code1
