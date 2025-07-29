@@ -1,3 +1,4 @@
 __pycache__/
 swe-fix/
 .pytest_cache/
+.coverage
