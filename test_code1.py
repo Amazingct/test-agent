@@ -107,8 +107,6 @@ class TestAdd:
         captured = capsys.readouterr()
         assert captured.out.strip() == "hello"
         
-    clear
-        
     def test_boolean_inputs(self, capsys):
         """Test boolean inputs (which are subclass of int in Python)"""
         add(True, False)
