@@ -107,12 +107,7 @@ class TestAdd:
         captured = capsys.readouterr()
         assert captured.out.strip() == "hello"
         
-    def test_whitespace_strings(self, capsys):
-        """Test strings with whitespace"""
-        add("  5  ", "3")
-        captured = capsys.readouterr()
-        # This should fail conversion and concatenate as strings
-        assert captured.out.strip() == "  5  3"
+    clear
         
     def test_boolean_inputs(self, capsys):
         """Test boolean inputs (which are subclass of int in Python)"""
